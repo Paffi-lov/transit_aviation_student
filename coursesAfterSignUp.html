@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mainstyles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap">
+  <link rel="stylesheet" type="text/css" href="css/coursesAfterSignUp.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="all_page">
+     <!-- SIDE BAR-->
+     <div class="side_bar">
+
+      <!-- LOGO -->
+      <div class="side_bar_logo_settings">
+        <img class="side_bar_logo" src="img/logo.png" alt="" width="40" height="40" />
+        <p class="side_bar_logo_text"><a href="#">Aviation</a></p>
+      </div>
+
+      <!-- BURGER MENU -->
+
+      <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="50"
+        onclick="this.classList.toggle('active'), toggleBurgerContent()">
+        <path class="line top"
+          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+        <path class="line middle" d="m 30,50 h 40" />
+        <path class="line bottom"
+          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+      </svg>
+
+      <div class="burger-content" style="left: -100%;">
+        <div class="burger-content-element">
+          <img width="24" src="img/icons8-главная-48.png" alt="">
+          <p><a href="mainAfterSignUp.html">Главная</a></p>
+        </div>
+        <div class="burger-content-element">
+          <img width="24" src="img/icons8-студенческий-центр-48.png" alt="">
+          <p><a href="coursesAfterSignUp.html">Мои курсы</a></p>
+        </div>
+        
+        <div class="burger-content-element">
+          <img width="24" src="img/icons8-настройки-48.png" alt="">
+          <p><a href="profileSettings.html">Настройки</a></p>
+        </div>
+        <div class="burger-content-element">
+          <img width="24" src="img/icons8-расписание-48.png" alt="">
+          <p><a href="timeTable.html">Мое расписание</a></p>
+        </div>
+        
+        <div class="burger-content-element-leave">
+          <img width="24" src="img/icons8-выйти-48.png" alt="">
+          <p><a href="index.html">Выйти</a></p>
+        </div>
+      </div>
+
+      <script src="js/burger.js"></script>
+      <script src="js/side-bar.js"></script>
+      <!-- NAVIGATION LINKS-->
+      <div class="side_bar_links">
+        <div class="side_bar_general">
+          <img class="side_bar_img" width="24" src="img/icons8-главная-48.png" alt="">
+          <p class="side_bar_text"><a href="mainAfterSignUp.html">Главная</a></p>
+        </div>
+
+        <div class="side_bar_courses">
+          <img class="side_bar_img" width="24" src="img/icons8-студенческий-центр-48.png" alt="">
+          <p class="side_bar_text"><a href="coursesAfterSignUp.html">Мои курсы</a></p>
+        </div>
+        
+        
+        <div class="side_bar_settings">
+          <img class="side_bar_img" width="24" src="img/icons8-настройки-48.png" alt="">
+          <p class="side_bar_text"><a href="profileSettings.html">Настройки</a></p>
+        </div>
+
+        <div class="side_bar_timeTable">
+          <img class="side_bar_img" width="24" src="img/icons8-расписание-48.png" alt="">
+          <p class="side_bar_text"><a href="timeTable.html">Мое расписание</a></p>
+        </div>
+        
+      </div>
+
+      
+
+   
+
+      <!-- support-img -->
+      <div class="support-img">
+        <img src="img/support-img.png" alt="">
+      </div>
+
+      <div class="leave-button">
+        <a href="login.html"><button class="leave">Выйти</button></a> 
+       </div>
+    </div>
+
+     <!-- side-bar -->
+     <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+      <a href="mainAfterSignUp.html">
+        <div class="sidebar-logo">
+          <img class="side_bar_logo" src="img/logo.png" alt="" width="40" height="40">
+          <p class="">Aviation</p>
+        </div>
+      </a>
+      <a href="mainAfterSignUp.html"><span>
+          <img width="24" src="img/icons8-главная-48.png" alt="">
+          <span class="sidebar_text"><span>Главная</span></span></a><br>
+      <a href="coursesAfterSignUp.html">
+        <img width="24" src="img/icons8-студенческий-центр-48.png" alt=""><span class="sidebar_text">Мои
+          курсы</span></a>
+      </a><br>
+  
+      
+  
+      <a href="profileSettings.html">
+        <img width="24" src="img/icons8-настройки-48.png" alt="">
+        <span class="sidebar_text">Настройки</span></a>
+      </a><br>
+      <a href="timeTable.html">
+        <img width="24" src="img/icons8-расписание-48.png" alt="">
+        <span class="sidebar_text">Мое расписание</span></a><br>
+     
+      <a href="index.html">
+        <img width="24" src="img/icons8-выйти-48.png" alt="">
+        <span class="sidebar_text red">Выйти</span>
+      </a>
+    </div>
+
+     <!-- side-bar -->
+    <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+      <a href="mainAfterSignUp.html">
+        <div class="sidebar-logo">
+          <img class="side_bar_logo" src="img/logo.png" alt="" width="40" height="40">
+          <p class="">Aviation</p>
+        </div>
+      </a>
+      <a href="mainAfterSignUp.html"><span>
+          <img width="24" src="img/icons8-главная-48.png" alt="">
+          <span class="sidebar_text"><span>Главная</span></span></a><br>
+      <a href="coursesAfterSignUp.html">
+        <img width="24" src="img/icons8-студенческий-центр-48.png" alt=""><span class="sidebar_text">Мои
+          курсы</span></a>
+      </a><br>
+  
+      
+  
+      <a href="profileSettings.html">
+        <img width="24" src="img/icons8-настройки-48.png" alt="">
+        <span class="sidebar_text">Настройки</span></a>
+      </a><br>
+      <a href="timeTable.html">
+        <img width="24" src="img/icons8-расписание-48.png" alt="">
+        <span class="sidebar_text">Мое расписание</span></a><br>
+      
+      <a href="index.html">
+        <img width="24" src="img/icons8-выйти-48.png" alt="">
+        <span class="sidebar_text red">Выйти</span>
+      </a>
+    </div>
+    <!-- -->
+    <div class="content">
+
+      <!-- search-input -->
+
+      <!-- Training sectors -->
+
+      <div class="courses_sector">
+        <h2 class="training_sectors_h2">Мои курсы</h2>
+
+        <div class="training_sectors_images">
+          <div class="card">
+            <a title="module" href="module.html"><img class="card-img" src="img/2 2539373.png" /></a>
+            <h2>Visual Flying</h2>
+          </div>
+
+          <!-- training_sectors_industrial -->
+
+          <div class="card">
+            <a title="module" href="module.html">
+              <img class="card-img" src="img/Group 82.png" /></a>
+            <h2>Fly Learning</h2>
+          </div>
+        </div>
+
+    </div>
+        <!--courses-->
+
+        <h2 class="training_sectors_h2">Новые уведомления</h2>
+
+      <div class="news">
+
+        <img class="prev" src="img/next-button.svg" alt="">
+        <div class="news-buttons">
+          <p class="prev-p">Предыдущий</p>
+        <p class="next-p">Следующий</p>
+        </div>
+
+        <div class="news_info">
+          <div class="date">
+            <p>Сегодня. 01 сент 2020 года</p>
+          </div>
+          <div class="newsNone">
+            <p>Пусто. Возращайся позже!</p>
+          </div>
+        </div>
+
+        <img class="next" src="img/next-button.svg" alt="">
+
+    </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+  </div>
+  <script src="js/side-bar.js"></script>
+</body>
+
+</html>
